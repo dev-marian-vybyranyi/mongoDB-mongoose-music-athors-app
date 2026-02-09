@@ -1,12 +1,46 @@
-# UpStarMusic
-Starter Repo for a MongoDB course on Udemy
+# Upstar Music
 
-You can download this repository by using the green `Clone or Download` button on the right hand side of this page.  This will present you with the option to either clone the repository using Git, or to download it as a zip file.
+A music artist management application built with React, Redux, and MongoDB.
 
-If you want to download it using git, copy paste the link that is presented to you, then run the following at your terminal:
+## Features
 
-```
-git clone https://github.com/StephenGrider/UpStarMusic.git
-cd UpStarMusic
-npm install
-```
+- **Artist Management**: Create, edit, delete, and view details of music artists.
+- **Filtering**: Filter artists by age, years active, and retirement status.
+- **Search**: Search for artists by name.
+- **Data Persistence**: Uses MongoDB for storing artist and album data.
+- **Desktop App**: Packaged with Electron for desktop usage.
+
+## Tech Stack
+
+- **Frontend**: React, Redux, Redux Form, React Router
+- **Backend/Database**: MongoDB, Mongoose
+- **Desktop Wrapper**: Electron
+- **Build Tool**: Webpack
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- MongoDB installed and running locally on port 27017
+
+### Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2.  Install dependencies:
+
+    ```bash
+    npm install --legacy-peer-deps
+    ```
+
+3.  Start the application:
+    ```bash
+    npm run start
+    ```
+    This command starts both the Electron app and the Webpack development server.
